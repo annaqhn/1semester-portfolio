@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+@media(max-width:1000px){
+  li, a{
+    display: none;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 30px 2%;
+  position: absolute;
+}
+
+
+/*Website logo*/
+.logo{
+  margin: 15px;
+}
+
+/*header*/
+.header{
+  background-color: black;
+  color: white;
+  height: 100px;
+  width:100%;
+  position: fixed;
+}
+
+.header-text{
+  font-family:"Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-right: auto;
+
+}
+
+.header-line{
+  border: 0;
+  height: 1px;
+  background-color: white;
+  width: 300px;
+}
+
+.nav-links{
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+
+
+/*background picture*/
+.background-picture{
+  background-size: cover;
+}
+
+
+/*Portfolio*/
+.portfolio-header{
+font-family:"Montserrat", sans-serif;
+text-align: center;
+padding: 50px;
+font-size: 30px;
+}
+
+.portfolio-line{
+border: 0;
+height: 5px;
+background-color: black;
+width: 500px;
+margin: auto;
+}
+
+.my-work{
+  text-align: center;
+  width: 100%;
+}
+
+.my-work img {
+  margin: 1%;
+}
+
+
+
+/*about me*/
+.about-me-picture {
+	text-align: center;
+	margin: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+    background-color: black;
+}
+
+.about-me-text {
+	text-align: center;
+	margin: auto;
+	padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  background-color: black;
+  font-family:"Montserrat", sans-serif;
+}
+
+.about-me-line{
+  border: 0;
+  height: 2px;
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.about-me-text p {
+	text-align: center;
+	margin: auto;
+  padding-top:30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+/*Contact*/
+.telephone-logo{
+    font-size: 70px;
+}
+
+.contact{
+  background-color: white;
+  font-family:"Montserrat", sans-serif;
+  height: 300px;
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 60px;
+}
+
+/*Footer*/
+footer{
+  background-color: black;
+  color: grey;
+  height: 250px;
+  width: 100%;
+  display: inline-block;
+  font-family:"Montserrat", sans-serif;
+  position: absolute;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-content h3{
+  font-size: 30px;
+}
+
+.footer-content p{
+  font-size: 15px;
+}
